@@ -1,0 +1,527 @@
+analysis(hb fields FBExprEdit) ""
+analysis(hb fields FBHarmsEdit) ""
+analysis(hb fields FBHeadListBox) (nil choices ("# Name   Expr      Value   Mxham Ovsap Tstab   SrcId") value nil)
+analysis(hb fields FBListBox) (nil choices (" ") value nil)
+analysis(hb fields FBNameEdit) ""
+analysis(hb fields FBOversampleEdit) ""
+analysis(hb fields FBSrcidEdit) ""
+analysis(hb fields FBTstabToneEdit) "yes"
+analysis(hb fields FBValueEdit) ""
+analysis(hb fields HBDivRatio1) "1"
+analysis(hb fields HBDivRatio2) "1"
+analysis(hb fields HBDivRatio3) "1"
+analysis(hb fields HBDivRatio4) "1"
+analysis(hb fields HBFreq1) "fin"
+analysis(hb fields HBFreq2) "fin2"
+analysis(hb fields HBFreq3) ""
+analysis(hb fields HBFreq4) ""
+analysis(hb fields HBHarm1) "5"
+analysis(hb fields HBHarm2) "5"
+analysis(hb fields HBHarm3) ""
+analysis(hb fields HBHarm4) ""
+analysis(hb fields HBHomotopy1) "1"
+analysis(hb fields HBHomotopy2) "1"
+analysis(hb fields HBHomotopy3) "0"
+analysis(hb fields HBHomotopy4) "0"
+analysis(hb fields HBSample1) "1"
+analysis(hb fields HBSample2) "1"
+analysis(hb fields HBSample3) "1"
+analysis(hb fields HBSample4) "1"
+analysis(hb fields HBTonesNum) "2"
+analysis(hb fields HBTranMode) "Decide automatically"
+analysis(hb fields HBTranMode2) "Yes"
+analysis(hb fields HBTranSteady) t
+analysis(hb fields autoharms) "no"
+analysis(hb fields autosteady) "yes"
+analysis(hb fields autotstab) "yes"
+analysis(hb fields axisbw) ""
+analysis(hb fields backoff) ""
+analysis(hb fields center) ""
+analysis(hb fields center2) ""
+analysis(hb fields center3) ""
+analysis(hb fields compressionB) nil
+analysis(hb fields dec) ""
+analysis(hb fields dec2) ""
+analysis(hb fields dec3) ""
+analysis(hb fields designVar) "pin"
+analysis(hb fields designVar2) ""
+analysis(hb fields designVar3) ""
+analysis(hb fields dev) ""
+analysis(hb fields dev2) ""
+analysis(hb fields dev3) ""
+analysis(hb fields devParam) ""
+analysis(hb fields deviceParam) ""
+analysis(hb fields deviceParam2) ""
+analysis(hb fields deviceParam3) ""
+analysis(hb fields displayHarmonic) "0"
+analysis(hb fields dynHeadListBox) (nil choices ("#         time                     value") value nil)
+analysis(hb fields dynParamB) nil
+analysis(hb fields dynParamListBox) (nil choices nil value nil)
+analysis(hb fields dynParamSetChoice) "User-defined"
+analysis(hb fields dynParamSetInput) ""
+analysis(hb fields dynParamSetParam) nil
+analysis(hb fields dynParamSetTab) nil
+analysis(hb fields dynamicParameter) "Parameter"
+analysis(hb fields dynchoice) "Parameter vector"
+analysis(hb fields dynparam) ""
+analysis(hb fields enable) (t)
+analysis(hb fields errpreset) "moderate"
+analysis(hb fields freqName) ""
+analysis(hb fields freqVal) ""
+analysis(hb fields freqVar) "no"
+analysis(hb fields freqVar2) "no"
+analysis(hb fields freqVar3) "no"
+analysis(hb fields freqdivide) "1"
+analysis(hb fields freqdividevector) nil
+analysis(hb fields fundListBox) (nil choices ("1 fin    fin        28G      Moderate  3     PORT0" "2 fin2   fin2       28.8G    Moderate  3     PORT0") value nil)
+analysis(hb fields fundfreqs) ("(fin)" "(fin2)")
+analysis(hb fields funds) ("fin" "fin2")
+analysis(hb fields harmonics) nil
+analysis(hb fields harmonicsCyc) "Default"
+analysis(hb fields harmoutputlist) (nil choices nil value nil)
+analysis(hb fields harmsAndFreqs) (nil choices nil value nil)
+analysis(hb fields harmsAndFreqsForCG) (nil choices nil value nil)
+analysis(hb fields harmsAndFreqsForLssp) (nil choices nil value nil)
+analysis(hb fields harmsAndFreqsTitle) (nil choices ("        frequency") value nil)
+analysis(hb fields harmsAndFreqsTitleForCG) (nil choices ("        frequency") value nil)
+analysis(hb fields harmsAndFreqsTitleForLssp) (nil choices ("        frequency") value nil)
+analysis(hb fields incrType) "Linear"
+analysis(hb fields incrType2) "Linear"
+analysis(hb fields incrType3) "Linear"
+analysis(hb fields lin) ""
+analysis(hb fields lin2) ""
+analysis(hb fields lin3) ""
+analysis(hb fields loadinst) ""
+analysis(hb fields loadinst_info) ""
+analysis(hb fields loadpullB) nil
+analysis(hb fields log) ""
+analysis(hb fields log2) ""
+analysis(hb fields log3) ""
+analysis(hb fields lowmem) "no"
+analysis(hb fields lsspB) nil
+analysis(hb fields lsspDisplayHarmonic) "0"
+analysis(hb fields lsspWizardInfo) ""
+analysis(hb fields lsspWizardState) "Disable"
+analysis(hb fields lsspharms) ("1")
+analysis(hb fields lsspports) nil
+analysis(hb fields maxHarms) ""
+analysis(hb fields maxharms) ("5" "5")
+analysis(hb fields maximorder) ""
+analysis(hb fields minialiasorder) ""
+analysis(hb fields mod) ""
+analysis(hb fields mod2) ""
+analysis(hb fields mod3) ""
+analysis(hb fields modelParam) ""
+analysis(hb fields modelParam2) ""
+analysis(hb fields modelParam3) ""
+analysis(hb fields multiDividerMode) nil
+analysis(hb fields n) ""
+analysis(hb fields nnode) ""
+analysis(hb fields oscMethodCheck) nil
+analysis(hb fields oscTuneCheck) nil
+analysis(hb fields oscana) nil
+analysis(hb fields oscic) "lin"
+analysis(hb fields oscicMethod) t
+analysis(hb fields oscmacrogene) ""
+analysis(hb fields oscmacrogeneUI) nil
+analysis(hb fields oscmacroout) nil
+analysis(hb fields oscmacroprobe) ""
+analysis(hb fields oscmacrosave) ""
+analysis(hb fields oscmethod) "onetier"
+analysis(hb fields outType) "voltage"
+analysis(hb fields oversample) ("1" "1")
+analysis(hb fields p) ""
+analysis(hb fields param) "pin"
+analysis(hb fields param2) ""
+analysis(hb fields param3) ""
+analysis(hb fields paramListBox) (nil choices ("# Name   Expr       Value    Signal  Harms   SrcId") value nil)
+analysis(hb fields paramTime) ""
+analysis(hb fields paramValue) ""
+analysis(hb fields param_file) ""
+analysis(hb fields param_vec) nil
+analysis(hb fields phi) ""
+analysis(hb fields phi_info) ""
+analysis(hb fields pinnode) ""
+analysis(hb fields pinnodemag) ""
+analysis(hb fields pinnodeminus) ""
+analysis(hb fields pinnoderank) ""
+analysis(hb fields pnode) ""
+analysis(hb fields rangeType) "Start-Stop"
+analysis(hb fields rangeType2) "Start-Stop"
+analysis(hb fields rangeType3) "Start-Stop"
+analysis(hb fields restart) ""
+analysis(hb fields rho) ""
+analysis(hb fields rho_info) ""
+analysis(hb fields saveinit) ""
+analysis(hb fields selFreqFrom) "0"
+analysis(hb fields selFreqTo) "1e12"
+analysis(hb fields selectharm) "diamond"
+analysis(hb fields selharm) ""
+analysis(hb fields selharmread) ""
+analysis(hb fields selharmvec) nil
+analysis(hb fields semiauto_freq) ""
+analysis(hb fields signalLevel) "Moderate"
+analysis(hb fields span) ""
+analysis(hb fields span2) ""
+analysis(hb fields span3) ""
+analysis(hb fields srcId) ""
+analysis(hb fields start) "-50"
+analysis(hb fields start2) ""
+analysis(hb fields start3) ""
+analysis(hb fields step2) ""
+analysis(hb fields step3) ""
+analysis(hb fields stepTypeLin) "Step Size"
+analysis(hb fields stepTypeLin2) "Step Size"
+analysis(hb fields stepTypeLin3) "Step Size"
+analysis(hb fields stepTypeLog) "Points Per Decade"
+analysis(hb fields stepTypeLog2) "Points Per Decade"
+analysis(hb fields stepTypeLog3) "Points Per Decade"
+analysis(hb fields stimName) ""
+analysis(hb fields stop) "15"
+analysis(hb fields stop2) ""
+analysis(hb fields stop3) ""
+analysis(hb fields sweep) "Variable"
+analysis(hb fields sweep2) "Variable"
+analysis(hb fields sweep3) "Variable"
+analysis(hb fields sweepB) t
+analysis(hb fields sweepB1) t
+analysis(hb fields sweepB2) nil
+analysis(hb fields sweepB3) nil
+analysis(hb fields sweepBcheck1) t
+analysis(hb fields sweepBcheck2) t
+analysis(hb fields sweepBcheck3) t
+analysis(hb fields sweepChange) nil
+analysis(hb fields sweepChange2) nil
+analysis(hb fields sweepChange3) nil
+analysis(hb fields sweepLevel) "1"
+analysis(hb fields sweepListString) "1 2 3"
+analysis(hb fields sweepOrderLabel) ""
+analysis(hb fields sweepOrderList) " "
+analysis(hb fields sweepOrderList2) " "
+analysis(hb fields sweepOrderList3) " "
+analysis(hb fields sweepStep) "2"
+analysis(hb fields sweepvar_info) ""
+analysis(hb fields tone_homotopy) nil
+analysis(hb fields tones) "Frequencies"
+analysis(hb fields tstab) "auto"
+analysis(hb fields tuneParam) "Variable"
+analysis(hb fields tuneRangeMax) ""
+analysis(hb fields tuneRangeMin) ""
+analysis(hb fields tuneStepID) "TuneStep Size"
+analysis(hb fields tuneVar) ""
+analysis(hb fields tunedev) ""
+analysis(hb fields tunelin) ""
+analysis(hb fields tuneparam) ""
+analysis(hb fields tunerange) nil
+analysis(hb fields tunestep) ""
+analysis(hb fields tunevalues) nil
+analysis(hb fields useDiscrete) nil
+analysis(hb fields useDiscrete2) nil
+analysis(hb fields useDiscrete3) nil
+analysis(hb fields useDiscreteTune) nil
+analysis(hb fields useDiscreteTuneRange) nil
+analysis(hb fields useTuneRange) nil
+analysis(hb fields values) nil
+analysis(hb fields values2) nil
+analysis(hb fields values3) nil
+analysis(hb fields xdbcompression) ""
+analysis(hb fields xdbcpi) ""
+analysis(hb fields xdbgain) "power"
+analysis(hb fields xdbgainEx) "Power"
+analysis(hb fields xdbharm) ("1")
+analysis(hb fields xdblevel) ("1")
+analysis(hb fields xdbload) ""
+analysis(hb fields xdbnoden) ""
+analysis(hb fields xdbnodep) ""
+analysis(hb fields xdbrapid) ""
+analysis(hb fields xdbrapidB) nil
+analysis(hb fields xdbref) "linear"
+analysis(hb fields xdbref1) "Small-Signal Gain"
+analysis(hb fields xdbsource) ""
+analysis(hb fields z0) "50"
+analysis(hb options AdvancedLowmem) nil
+analysis(hb options additionalParams) ""
+analysis(hb options annotate) "status"
+analysis(hb options budgetlowmem) ""
+analysis(hb options cmin) ""
+analysis(hb options compression) ""
+analysis(hb options ic) ""
+analysis(hb options itres) ""
+analysis(hb options lsspdatafmt) ""
+analysis(hb options lsspdatatype) ""
+analysis(hb options lsspfile) ""
+analysis(hb options maxperiods) ""
+analysis(hb options maxstep) ""
+analysis(hb options memoryestimate) ""
+analysis(hb options nestlvl) ""
+analysis(hb options pinnode) ""
+analysis(hb options ppv) ""
+analysis(hb options readhb) ""
+analysis(hb options readic) ""
+analysis(hb options readns) ""
+analysis(hb options recover) ""
+analysis(hb options restart) ""
+analysis(hb options save) ""
+analysis(hb options saveclock) ""
+analysis(hb options savefile) ""
+analysis(hb options saveperiod) ""
+analysis(hb options savetime) nil
+analysis(hb options selharmwrite) ""
+analysis(hb options skipdc) ""
+analysis(hb options tstabmethod) ""
+analysis(hb options write) ""
+analysis(hb options writehb) ""
+analysis(hb options xdbmax) ""
+analysis(hb options xdbstart) ""
+analysis(hb options xdbsteps) ""
+analysis(hb options xdbtol) ""
+analysis(pss fields Aindices) nil
+analysis(pss fields FBFund) ""
+analysis(pss fields FBFundCalc) nil
+analysis(pss fields FBHeadListBox) (nil choices ("Name         Expr         Value        SrcId ") value nil)
+analysis(pss fields FBListBox) (nil choices (" ") value nil)
+analysis(pss fields HBPartListBox) (nil choices nil value nil)
+analysis(pss fields HBPartListPssTitle) (nil choices ("           Instances          Harms      Funds") value nil)
+analysis(pss fields HBPartListQpssTitle) (nil choices ("           Instances          Harms      FundNames") value nil)
+analysis(pss fields PssTranMode) "Yes"
+analysis(pss fields PssTranSteady) nil
+analysis(pss fields arrayCoeffs) (nil choices nil value nil)
+analysis(pss fields autoCalc) nil
+analysis(pss fields autosteady) ""
+analysis(pss fields autotstab) ""
+analysis(pss fields center) ""
+analysis(pss fields center2) ""
+analysis(pss fields center3) ""
+analysis(pss fields dec) ""
+analysis(pss fields dec2) ""
+analysis(pss fields dec3) ""
+analysis(pss fields designVar) ""
+analysis(pss fields designVar2) ""
+analysis(pss fields designVar3) ""
+analysis(pss fields dev) ""
+analysis(pss fields dev2) ""
+analysis(pss fields dev3) ""
+analysis(pss fields devParam) ""
+analysis(pss fields deviceParam) ""
+analysis(pss fields deviceParam2) ""
+analysis(pss fields deviceParam3) ""
+analysis(pss fields dynHeadListBox) (nil choices ("#         time                     value") value nil)
+analysis(pss fields dynParamB) nil
+analysis(pss fields dynParamListBox) (nil choices nil value nil)
+analysis(pss fields dynParamSetChoice) "User-defined"
+analysis(pss fields dynParamSetInput) ""
+analysis(pss fields dynParamSetParam) nil
+analysis(pss fields dynParamSetTab) nil
+analysis(pss fields dynamicParameter) "Parameter"
+analysis(pss fields dynchoice) "Parameter vector"
+analysis(pss fields dynparam) ""
+analysis(pss fields enable) (nil)
+analysis(pss fields engine) "Shooting"
+analysis(pss fields errpreset) ""
+analysis(pss fields flexbalance) "no"
+analysis(pss fields freqName) ""
+analysis(pss fields freqPeriod) "Beat Frequency"
+analysis(pss fields freqVal) ""
+analysis(pss fields freqVar) "no"
+analysis(pss fields freqVar2) "no"
+analysis(pss fields freqVar3) "no"
+analysis(pss fields fund) ""
+analysis(pss fields fundListBox) (nil choices ("1  fin      fin        28G       Large      PORT0") value nil)
+analysis(pss fields harmCoeffs) nil
+analysis(pss fields harmListMem) nil
+analysis(pss fields harmonics) "Number of harmonics"
+analysis(pss fields harms) ""
+analysis(pss fields harmsAndFreqs) (nil choices nil value nil)
+analysis(pss fields harmsAndFreqsTitle) (nil choices ("Index Frequency     fin") value nil)
+analysis(pss fields harmsAndFreqsTitle2) (nil choices ("Index Frequency     fin") value nil)
+analysis(pss fields harmsvec) nil
+analysis(pss fields hbhomotopy) "default"
+analysis(pss fields hbpartition_defs) nil
+analysis(pss fields hbpartition_fundnames) nil
+analysis(pss fields hbpartition_funds) nil
+analysis(pss fields hbpartition_harms) nil
+analysis(pss fields incrType) "Linear"
+analysis(pss fields incrType2) "Linear"
+analysis(pss fields incrType3) "Linear"
+analysis(pss fields indices) nil
+analysis(pss fields lin) ""
+analysis(pss fields lin2) ""
+analysis(pss fields lin3) ""
+analysis(pss fields loadinst) ""
+analysis(pss fields loadinst_info) ""
+analysis(pss fields loadpullB) nil
+analysis(pss fields log) ""
+analysis(pss fields log2) ""
+analysis(pss fields log3) ""
+analysis(pss fields lsspWizardInfo) ""
+analysis(pss fields lsspWizardState) "Disable"
+analysis(pss fields maxHarms) ""
+analysis(pss fields mod) ""
+analysis(pss fields mod2) ""
+analysis(pss fields mod3) ""
+analysis(pss fields modelParam) ""
+analysis(pss fields modelParam2) ""
+analysis(pss fields modelParam3) ""
+analysis(pss fields n) ""
+analysis(pss fields order) "1"
+analysis(pss fields oscMethodCheck) nil
+analysis(pss fields oscTuneCheck) nil
+analysis(pss fields oscana) nil
+analysis(pss fields oscic) ""
+analysis(pss fields oscicMethod) t
+analysis(pss fields oscmethod) ""
+analysis(pss fields oversamplefactor) ""
+analysis(pss fields p) ""
+analysis(pss fields param) ""
+analysis(pss fields param2) ""
+analysis(pss fields param3) ""
+analysis(pss fields paramListBox) (nil choices ("#  Name     Expr       Value     Signal     SrcId ") value nil)
+analysis(pss fields paramTime) ""
+analysis(pss fields paramValue) ""
+analysis(pss fields param_file) ""
+analysis(pss fields param_vec) nil
+analysis(pss fields partFunds) ""
+analysis(pss fields partHarms) ""
+analysis(pss fields partInsts) nil
+analysis(pss fields period) ""
+analysis(pss fields phi) ""
+analysis(pss fields phi_info) ""
+analysis(pss fields pinnode) ""
+analysis(pss fields pinnodemag) ""
+analysis(pss fields pinnodeminus) ""
+analysis(pss fields pinnoderank) ""
+analysis(pss fields rangeType) "Start-Stop"
+analysis(pss fields rangeType2) "Start-Stop"
+analysis(pss fields rangeType3) "Start-Stop"
+analysis(pss fields restart) ""
+analysis(pss fields rho) ""
+analysis(pss fields rho_info) ""
+analysis(pss fields saveinit) ""
+analysis(pss fields saveinitHB) ""
+analysis(pss fields selFreqFrom) ""
+analysis(pss fields selFreqTo) ""
+analysis(pss fields semiauto_freq) ""
+analysis(pss fields signalLevel) "Large"
+analysis(pss fields sigpartB) nil
+analysis(pss fields span) ""
+analysis(pss fields span2) ""
+analysis(pss fields span3) ""
+analysis(pss fields srcId) ""
+analysis(pss fields start) ""
+analysis(pss fields start2) ""
+analysis(pss fields start3) ""
+analysis(pss fields step2) ""
+analysis(pss fields step3) ""
+analysis(pss fields stepTypeLin) "Step Size"
+analysis(pss fields stepTypeLin2) "Step Size"
+analysis(pss fields stepTypeLin3) "Step Size"
+analysis(pss fields stepTypeLog) "Points Per Decade"
+analysis(pss fields stepTypeLog2) "Points Per Decade"
+analysis(pss fields stepTypeLog3) "Points Per Decade"
+analysis(pss fields stimName) ""
+analysis(pss fields stop) ""
+analysis(pss fields stop2) ""
+analysis(pss fields stop3) ""
+analysis(pss fields sweep) "Variable"
+analysis(pss fields sweep2) "Variable"
+analysis(pss fields sweep3) "Variable"
+analysis(pss fields sweepB) nil
+analysis(pss fields sweepB1) nil
+analysis(pss fields sweepB2) nil
+analysis(pss fields sweepB3) nil
+analysis(pss fields sweepBcheck1) nil
+analysis(pss fields sweepBcheck2) nil
+analysis(pss fields sweepBcheck3) nil
+analysis(pss fields sweepChange) nil
+analysis(pss fields sweepChange2) nil
+analysis(pss fields sweepChange3) nil
+analysis(pss fields sweepLevel) "1"
+analysis(pss fields sweepListString) ""
+analysis(pss fields sweepOrderLabel) ""
+analysis(pss fields sweepOrderList) " "
+analysis(pss fields sweepOrderList2) " "
+analysis(pss fields sweepOrderList3) " "
+analysis(pss fields sweepStep) ""
+analysis(pss fields sweepvar_info) ""
+analysis(pss fields tstab) ""
+analysis(pss fields tstabHB) ""
+analysis(pss fields tstabenvlpMode) "yes"
+analysis(pss fields tstabenvlp_autosteady) ""
+analysis(pss fields tstabenvlp_autosteadyDisp) nil
+analysis(pss fields tstabenvlpstop) ""
+analysis(pss fields tuneParam) "Variable"
+analysis(pss fields tuneRangeMax) ""
+analysis(pss fields tuneRangeMin) ""
+analysis(pss fields tuneStepID) "TuneStep Size"
+analysis(pss fields tuneVar) ""
+analysis(pss fields tunedev) ""
+analysis(pss fields tunelin) ""
+analysis(pss fields tuneparam) ""
+analysis(pss fields tunerange) nil
+analysis(pss fields tunestep) ""
+analysis(pss fields tunevalues) nil
+analysis(pss fields useDiscrete) nil
+analysis(pss fields useDiscrete2) nil
+analysis(pss fields useDiscrete3) nil
+analysis(pss fields useDiscreteTune) nil
+analysis(pss fields useDiscreteTuneRange) nil
+analysis(pss fields useTuneRange) nil
+analysis(pss fields values) nil
+analysis(pss fields values2) nil
+analysis(pss fields values3) nil
+analysis(pss fields z0) ""
+analysis(pss options additionalParams) ""
+analysis(pss options annotate) "status"
+analysis(pss options backtracking) ""
+analysis(pss options checkpss) ""
+analysis(pss options cmin) ""
+analysis(pss options compression) ""
+analysis(pss options envlpname) "envlp"
+analysis(pss options fdharms) ""
+analysis(pss options finitediff) ""
+analysis(pss options fullpssvec) ""
+analysis(pss options hbhighq) "yes"
+analysis(pss options highorder) ""
+analysis(pss options ic) ""
+analysis(pss options inexactNewton) ""
+analysis(pss options itres) ""
+analysis(pss options lnsolver) ""
+analysis(pss options lteratio) ""
+analysis(pss options maxacfreq) ""
+analysis(pss options maxiters) ""
+analysis(pss options maxorder) ""
+analysis(pss options maxperiods) ""
+analysis(pss options maxstep) ""
+analysis(pss options memoryestimate) ""
+analysis(pss options method) ""
+analysis(pss options nestlvl) ""
+analysis(pss options oppoint) ""
+analysis(pss options outputtype) ""
+analysis(pss options ppv) ""
+analysis(pss options psaratio) ""
+analysis(pss options readic) ""
+analysis(pss options readns) ""
+analysis(pss options readpss) ""
+analysis(pss options recover) ""
+analysis(pss options relref) ""
+analysis(pss options resgmrescycle) ""
+analysis(pss options save) ""
+analysis(pss options saveclock) ""
+analysis(pss options savefile) ""
+analysis(pss options saveperiod) ""
+analysis(pss options savetime) nil
+analysis(pss options skipcount) ""
+analysis(pss options skipdc) ""
+analysis(pss options skipstart) ""
+analysis(pss options skipstop) ""
+analysis(pss options steadyratio) ""
+analysis(pss options step) ""
+analysis(pss options strobedelay) ""
+analysis(pss options strobeperiod) ""
+analysis(pss options swapfile) ""
+analysis(pss options tstabenvlp) ""
+analysis(pss options tstabmethod) ""
+analysis(pss options tstart) ""
+analysis(pss options write) ""
+analysis(pss options writefinal) ""
+analysis(pss options writepss) ""
