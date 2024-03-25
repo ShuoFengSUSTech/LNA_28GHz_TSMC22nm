@@ -1,0 +1,11 @@
+
+csrInitializeDpl()
+
+csrSetSatField(    'state "no" )
+csrSetSatField(    'color "y0" )
+csrSetBrkdwnField( 'state "no" )
+csrSetBrkdwnField( 'color "y1" )
+
+
+_csrSetFilterStatus( nil )
+_csrSetSortStatus( nil )

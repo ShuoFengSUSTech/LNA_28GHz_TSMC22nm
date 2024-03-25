@@ -1,0 +1,21 @@
+EVcdFile ""
+EVcdInfoFile ""
+VcdFile ""
+VcdInfoFile ""
+VectorFile nil
+allDefinitionFiles ((t "/home/rmaaq/tsmc28nm/op.scs"))
+allDspfFiles nil
+allEVcdFiles nil
+allIncludedPaths nil
+allPspiceFiles nil
+allSpefFiles nil
+allStimulusFiles nil
+allVcdFiles nil
+allVectorFiles nil
+definitionFiles ("/home/rmaaq/tsmc28nm/op.scs")
+dspfFile nil
+hlcheck "off"
+includePath ""
+pspiceFile nil
+spefFile nil
+stimulusFile nil
